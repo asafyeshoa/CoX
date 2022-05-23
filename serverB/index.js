@@ -5,8 +5,6 @@ const {io} = require('socket.io-client')
 const socket = io("http://localhost:3000");
 
 
-app.get('/wild', (req, res) => {})
-
 
 
 server.listen(4000, () => {
@@ -17,12 +15,11 @@ server.listen(4000, () => {
 socket.on("connection")
 
 
-socket.on('blast', (data) => {
+socket.on('message', (data) => {
     console.log('blast is reached')
     console.log(data)
 })
 
-socket.on('random-player', (data) => {
+socket.on('message', (data) => {
     console.log(data)
-    console.log('picked as random player')
 })
