@@ -22,7 +22,6 @@ io.on("connection", (socket) => {
   app.get('/spin', (req, res) => {
     const idArray = Object.keys(allUsers)
     const user = idArray[Math.floor(Math.random()*idArray.length)];
-    console.log(user)
     socket.broadcast.to(user).emit('message', 'you got spin!!');
     res.send('spin sent')
   })
