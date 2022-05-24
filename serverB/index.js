@@ -15,10 +15,6 @@ server.listen(4000, () => {
 socket.on("connection")
 
 
-socket.on('message', (data) => {
-    console.log('blast is reached')
-    console.log(data)
-})
 
 socket.on('message', (data) => {
     console.log(data)
