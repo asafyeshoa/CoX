@@ -14,6 +14,18 @@ const allUsers = {}
 // });
 
 
+// examples of trys to send the io into the routes files
+
+// app.set('socketIo', io)
+
+// app.use((req, res, next) => {
+//     req.io = io;
+//     return next();
+// });
+
+
+
+
 server.listen(3000, () => {
   console.log("serverA is running");
   console.log("server running on 3000");
@@ -42,4 +54,6 @@ io.on("connection", (socket) => {
   socket.emit('message', 'socket is connected')
 
 });
+
+
 

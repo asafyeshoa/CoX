@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb8daa39-ddf8-44f6-aaf6-6e1224e3a2e3" name="Changes" comment="delete no necessary code">
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/socketsController.js" afterDir="false" />
+    <list default="true" id="bb8daa39-ddf8-44f6-aaf6-6e1224e3a2e3" name="Changes" comment="created controller for sockets&#10;functions">
+      <change afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serverB/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/serverB/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serverB/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/serverB/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/home.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +70,7 @@
       <workItem from="1653309541786" duration="5554000" />
       <workItem from="1653328561366" duration="5162000" />
       <workItem from="1653341988393" duration="916000" />
-      <workItem from="1653413301404" duration="11573000" />
+      <workItem from="1653413301404" duration="15876000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1653328769323</created>
@@ -105,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653415501106</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="created controller for sockets&#10;functions">
+      <created>1653426434297</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653426434297</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +133,7 @@
     <MESSAGE value="Wild done" />
     <MESSAGE value="remove one message on serverB" />
     <MESSAGE value="delete no necessary code" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete no necessary code" />
+    <MESSAGE value="created controller for sockets&#10;functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="created controller for sockets&#10;functions" />
   </component>
 </project>
